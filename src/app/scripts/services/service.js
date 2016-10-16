@@ -23,7 +23,7 @@
                 return $q(function(resolve) {
 
                     $mdDialog
-                    .show({ templateUrl: 'views/icon.html',
+                    .show({ templateUrl: 'views/directives/icon.html',
                             title: 'Attention',
                             clickOutsideToClose: true,
                             ok: 'Ok',

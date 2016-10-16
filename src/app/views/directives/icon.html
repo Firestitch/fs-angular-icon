@@ -1,0 +1,16 @@
+<md-dialog id="md-dialog-fsicon">
+    <md-input-container class="md-no-message md-no-label md-block">
+    	<input ng-model="search" placeholder="Search" autocomplete="off">
+    </md-input-container>
+    <md-dialog-content>
+        <div class="md-dialog-content">
+            <div ng-repeat="icon in icons track by $index" class="icon-item" ng-click="select(icon)" ng-hide="hideIcons[icon.icon]">
+                <div class="material-icons">{{::icon.icon}}</div>
+                <div class="tooltip">{{::icon.name}}</div>
+            </div>
+        </div>
+    </md-dialog-content>
+    <md-dialog-actions layout="row" class="layout-row">
+        <md-button type="button" class="md-accent" ng-click="hide()">Cancel</md-button>
+    </md-dialog-actions>
+</md-dialog>
