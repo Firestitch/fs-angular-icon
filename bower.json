@@ -12,6 +12,9 @@
   "ignore": [
     "src",
     ".gitignore"
+    "backend",
+    "data",
+    "framework"
   ],
   "private": false
 }
