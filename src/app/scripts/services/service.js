@@ -1,11 +1,6 @@
 (function () {
     'use strict';
 
-    /**
-     * @ngdoc service
-     * @name services.fsAlert
-    */
-
     angular.module('fs-angular-icon',[])
     .provider('fsIcon', function() {
 

@@ -1,6 +1,6 @@
 {
   "name": "fs-angular-icon",
-  "namespace": "angular",
+  "namespace": "icon",
   "port": "5031",
   "moduleName": "app",
   "version": "0.0.0",
