@@ -82,11 +82,15 @@ angular.module('fs-angular-icon').run(['$templateCache', function($templateCache
   $templateCache.put('views/directives/icon.html',
     "<md-dialog id=\"md-dialog-fsicon\">\r" +
     "\n" +
-    "    <md-input-container class=\"md-no-message md-no-label md-block\">\r" +
+    "    <div class=\"search\">\r" +
     "\n" +
-    "    \t<input ng-model=\"search\" placeholder=\"Search\" autocomplete=\"off\">\r" +
+    "        <md-input-container class=\"md-no-message md-no-label md-block\">\r" +
     "\n" +
-    "    </md-input-container>\r" +
+    "        \t<input ng-model=\"search\" placeholder=\"Search\" autocomplete=\"off\">\r" +
+    "\n" +
+    "        </md-input-container>\r" +
+    "\n" +
+    "    </div>\r" +
     "\n" +
     "    <md-dialog-content>\r" +
     "\n" +

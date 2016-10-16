@@ -1,7 +1,9 @@
 <md-dialog id="md-dialog-fsicon">
-    <md-input-container class="md-no-message md-no-label md-block">
-    	<input ng-model="search" placeholder="Search" autocomplete="off">
-    </md-input-container>
+    <div class="search">
+        <md-input-container class="md-no-message md-no-label md-block">
+        	<input ng-model="search" placeholder="Search" autocomplete="off">
+        </md-input-container>
+    </div>
     <md-dialog-content>
         <div class="md-dialog-content">
             <div ng-repeat="icon in icons track by $index" class="icon-item" ng-click="select(icon)" ng-hide="hideIcons[icon.icon]">
