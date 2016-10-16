@@ -1,0 +1,17 @@
+{
+  "name": "fs-angular-icon",
+  "description": "",
+  "main": [
+    "dist/icon.js",
+    "dist/icon.css"
+  ],
+  "authors": [
+    "Firestitch Inc."
+  ],
+  "license": "MIT",
+  "ignore": [
+    "src",
+    ".gitignore"
+  ],
+  "private": false
+}

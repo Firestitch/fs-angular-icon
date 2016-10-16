@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class DBO_COLUMN</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?70c1d062672daa3f906b72e4f5d03d4bc5c4174d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+					<li>
+						<a href="package-Library.html">
+							Library<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Library.Command.html">
+							Command						</a>
+							</li>
+					<li>
+						<a href="package-Library.Common.html">
+							Common						</a>
+							</li>
+					<li>
+						<a href="package-Library.Crawler.html">
+							Crawler						</a>
+							</li>
+					<li>
+						<a href="package-Library.Db.html">
+							Db						</a>
+							</li>
+					<li>
+						<a href="package-Library.Email.html">
+							Email						</a>
+							</li>
+					<li>
+						<a href="package-Library.Htmlform.html">
+							Htmlform						</a>
+							</li>
+					<li>
+						<a href="package-Library.Payment.html">
+							Payment						</a>
+							</li>
+					<li>
+						<a href="package-Library.Thumbnailer.html">
+							Thumbnailer						</a>
+							</li>
+					<li>
+						<a href="package-Library.Transport.html">
+							Transport						</a>
+							</li>
+					<li>
+						<a href="package-Library.Web.html">
+							Web						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-None.html">
+							None						</a>
+							</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-DB.html">DB</a></li>
+				<li><a href="class-DB_CONSTRAINT.html">DB_CONSTRAINT</a></li>
+				<li><a href="class-DB_GROUP.html">DB_GROUP</a></li>
+				<li><a href="class-DB_JOIN.html">DB_JOIN</a></li>
+				<li><a href="class-DB_MYSQL.html">DB_MYSQL</a></li>
+				<li><a href="class-DB_MYSQLI.html">DB_MYSQLI</a></li>
+				<li><a href="class-DB_SUBQUERY.html">DB_SUBQUERY</a></li>
+				<li><a href="class-DB_TXTSQL.html">DB_TXTSQL</a></li>
+				<li><a href="class-DB_UTILITY.html">DB_UTILITY</a></li>
+				<li><a href="class-DBO.html">DBO</a></li>
+				<li class="active"><a href="class-DBO_COLUMN.html">DBO_COLUMN</a></li>
+				<li><a href="class-DBQ.html">DBQ</a></li>
+				<li><a href="class-DBQ_PARM.html">DBQ_PARM</a></li>
+				<li><a href="class-extend_mysqli.html">extend_mysqli</a></li>
+				<li><a href="class-UTILITY_MYSQL.html">UTILITY_MYSQL</a></li>
+				<li><a href="class-UTILITY_MYSQLI.html">UTILITY_MYSQLI</a></li>
+				<li><a href="class-UTILITY_TXTSQL.html">UTILITY_TXTSQL</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class DBO_COLUMN</h1>
+
+
+	<div class="description">
+	<p>Class DBO_COLUMN</p>
+	</div>
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+			<a href="class-OBJECT.html"><span>OBJECT</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>DBO_COLUMN</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Library.html">Library</a>\<a href="package-Library.Db.html">Db</a><br>
+
+			<b>Located at</b> <a href="source-class-DBO_COLUMN.html#3-207" title="Go to source code">db/DBO.inc</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#53-63" title="Go to source code">__construct</a>( <span>string <var>$data_type</var></span>, <span>string <var>$size</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$not_null</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$primary</var> = <span class="php-keyword1">false</span></span> )</code>
+
+			<div class="description short">
+				<p>Constructor</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Constructor</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$data_type</var></dt>
+						<dd></dd>
+						<dt><var>$size</var></dt>
+						<dd></dd>
+						<dt><var>$not_null</var></dt>
+						<dd></dd>
+						<dt><var>$primary</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_data_type" id="_get_data_type">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_data_type">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#65-69" title="Go to source code">get_data_type</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the data type</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the data type</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_data_type" id="_is_data_type">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_data_type">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#71" title="Go to source code">is_data_type</a>( <span> <var>$value</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_value" id="_get_value">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_value">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#73-77" title="Go to source code">get_value</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the value</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the value</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_encrypt_key" id="_get_encrypt_key">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_encrypt_key">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#79-83" title="Go to source code">get_encrypt_key</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the encrypt key</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the encrypt key</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_primary" id="_is_primary">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_primary">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#85-89" title="Go to source code">is_primary</a>( )</code>
+
+			<div class="description short">
+				<p>Checks whether is primary</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Checks whether is primary</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_tagged" id="_is_tagged">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_tagged">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#91-95" title="Go to source code">is_tagged</a>( )</code>
+
+			<div class="description short">
+				<p>Check whether is tagged</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check whether is tagged</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_encrypt_aes" id="_is_encrypt_aes">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_encrypt_aes">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#98-102" title="Go to source code">is_encrypt_aes</a>( )</code>
+
+			<div class="description short">
+				<p>Check whether is encrypt aes</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check whether is encrypt aes</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="enable_tag" id="_enable_tag">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_enable_tag">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#104-110" title="Go to source code">enable_tag</a>( )</code>
+
+			<div class="description short">
+				<p>Enable tag</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Enable tag</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="disable_tag" id="_disable_tag">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_disable_tag">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#118-124" title="Go to source code">disable_tag</a>( )</code>
+
+			<div class="description short">
+				<p>Disable tag</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Disable tag</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_value" id="_set_value">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set_value">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#133-167" title="Go to source code">set_value</a>( <span>string <var>$value</var></span>, <span>boolean <var>$untag</var> = <span class="php-keyword1">true</span></span> )</code>
+
+			<div class="description short">
+				<p>Set value</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set value</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$value</var></dt>
+						<dd></dd>
+						<dt><var>$untag</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="encrypt_aes" id="_encrypt_aes">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_encrypt_aes">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#169-176" title="Go to source code">encrypt_aes</a>( <span>string <var>$key</var></span> )</code>
+
+			<div class="description short">
+				<p>encrypt aes</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>encrypt aes</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_data_type_int" id="_is_data_type_int">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_data_type_int">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#178-182" title="Go to source code">is_data_type_int</a>( )</code>
+
+			<div class="description short">
+				<p>Check whether data type is integer</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check whether data type is integer</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_data_type_decimal" id="_is_data_type_decimal">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_data_type_decimal">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#184-188" title="Go to source code">is_data_type_decimal</a>( )</code>
+
+			<div class="description short">
+				<p>Check whether data type is decimal</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check whether data type is decimal</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_data_type_date" id="_is_data_type_date">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_data_type_date">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#190-194" title="Go to source code">is_data_type_date</a>( )</code>
+
+			<div class="description short">
+				<p>Check whether data type is date</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check whether data type is date</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_data_type_datetime" id="_is_data_type_datetime">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_data_type_datetime">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#196-200" title="Go to source code">is_data_type_datetime</a>( )</code>
+
+			<div class="description short">
+				<p>Check whether data type is datetime</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check whether data type is datetime</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_data_type_string" id="_is_data_type_string">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_data_type_string">#</a>
+			<code><a href="source-class-DBO_COLUMN.html#202-206" title="Go to source code">is_data_type_string</a>( )</code>
+
+			<div class="description short">
+				<p>Check whether data type is string</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check whether data type is string</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+		<div class="panel panel-default">
+	        <div class="panel-heading"><h3>Methods inherited from <a href="class-OBJECT.html#methods">OBJECT</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-OBJECT.html#___call">__call()</a></code>, 
+				<code><a href="class-OBJECT.html#___callStatic">__callStatic()</a></code>, 
+				<code><a href="class-OBJECT.html#___clone">__clone()</a></code>
+			</p>
+		</div>
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="CONFIG_PRIMARY" id="CONFIG_PRIMARY">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-DBO_COLUMN.html#17" title="Go to source code"><b>CONFIG_PRIMARY</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#CONFIG_PRIMARY" class="anchor">#</a>
+						<code><code><a href="class-CONSTANT.html#BIT_01">CONSTANT::<b>BIT_01</b></a></code></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="CONFIG_TAGGED" id="CONFIG_TAGGED">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-DBO_COLUMN.html#18" title="Go to source code"><b>CONFIG_TAGGED</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#CONFIG_TAGGED" class="anchor">#</a>
+						<code><code><a href="class-CONSTANT.html#BIT_02">CONSTANT::<b>BIT_02</b></a></code></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="ENCRYPT_AES" id="ENCRYPT_AES">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-DBO_COLUMN.html#21" title="Go to source code"><b>ENCRYPT_AES</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#ENCRYPT_AES" class="anchor">#</a>
+						<code><span class="php-quote">&quot;AES&quot;</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="STRING_DATA_TYPES" id="$STRING_DATA_TYPES">
+			<td class="attributes"><code>
+				public static 
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-DBO_COLUMN.html#11-15" title="Go to source code"><var>$STRING_DATA_TYPES</var></a>
+
+				<div class="description short">
+					<p>STRING DATA TYPES</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>STRING DATA TYPES</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$STRING_DATA_TYPES" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>(<span class="php-quote">&quot;char&quot;</span>,<span class="php-quote">&quot;varchar&quot;</span>,<span class="php-quote">&quot;binary&quot;</span>,<span class="php-quote">&quot;varbinary&quot;</span>,<span class="php-quote">&quot;blob&quot;</span>,<span class="php-quote">&quot;tinyblob&quot;</span>,<span class="php-quote">&quot;mediumblob&quot;</span>,<span class="php-quote">&quot;longblob&quot;</span>,<span class="php-quote">&quot;tinytext&quot;</span>,<span class="php-quote">&quot;text&quot;</span>,<span class="php-quote">&quot;mediumtext&quot;</span>,<span class="php-quote">&quot;longtext&quot;</span>)</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_data_type" id="$_data_type">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-DBO_COLUMN.html#23-27" title="Go to source code"><var>$_data_type</var></a>
+
+				<div class="description short">
+					<p>The data type</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The data type</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_data_type" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_config" id="$_config">
+			<td class="attributes"><code>
+				protected  
+				integer
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-DBO_COLUMN.html#29-33" title="Go to source code"><var>$_config</var></a>
+
+				<div class="description short">
+					<p>The config</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The config</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_config" class="anchor">#</a>
+					<code><span class="php-num">0</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_value" id="$_value">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-DBO_COLUMN.html#35-39" title="Go to source code"><var>$_value</var></a>
+
+				<div class="description short">
+					<p>The value</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The value</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_value" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_encrypt" id="$_encrypt">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-DBO_COLUMN.html#41-45" title="Go to source code"><var>$_encrypt</var></a>
+
+				<div class="description short">
+					<p>The encrypt</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The encrypt</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_encrypt" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_encrypt_key" id="$_encrypt_key">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-DBO_COLUMN.html#47-51" title="Go to source code"><var>$_encrypt_key</var></a>
+
+				<div class="description short">
+					<p>encrypt key</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>encrypt key</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_encrypt_key" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

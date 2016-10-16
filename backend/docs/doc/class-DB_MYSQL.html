@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class DB_MYSQL</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?70c1d062672daa3f906b72e4f5d03d4bc5c4174d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+					<li>
+						<a href="package-Library.html">
+							Library<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Library.Command.html">
+							Command						</a>
+							</li>
+					<li>
+						<a href="package-Library.Common.html">
+							Common						</a>
+							</li>
+					<li>
+						<a href="package-Library.Crawler.html">
+							Crawler						</a>
+							</li>
+					<li>
+						<a href="package-Library.Db.html">
+							Db						</a>
+							</li>
+					<li>
+						<a href="package-Library.Email.html">
+							Email						</a>
+							</li>
+					<li>
+						<a href="package-Library.Htmlform.html">
+							Htmlform						</a>
+							</li>
+					<li>
+						<a href="package-Library.Payment.html">
+							Payment						</a>
+							</li>
+					<li>
+						<a href="package-Library.Thumbnailer.html">
+							Thumbnailer						</a>
+							</li>
+					<li>
+						<a href="package-Library.Transport.html">
+							Transport						</a>
+							</li>
+					<li>
+						<a href="package-Library.Web.html">
+							Web						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-None.html">
+							None						</a>
+							</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-DB.html">DB</a></li>
+				<li><a href="class-DB_CONSTRAINT.html">DB_CONSTRAINT</a></li>
+				<li><a href="class-DB_GROUP.html">DB_GROUP</a></li>
+				<li><a href="class-DB_JOIN.html">DB_JOIN</a></li>
+				<li class="active"><a href="class-DB_MYSQL.html">DB_MYSQL</a></li>
+				<li><a href="class-DB_MYSQLI.html">DB_MYSQLI</a></li>
+				<li><a href="class-DB_SUBQUERY.html">DB_SUBQUERY</a></li>
+				<li><a href="class-DB_TXTSQL.html">DB_TXTSQL</a></li>
+				<li><a href="class-DB_UTILITY.html">DB_UTILITY</a></li>
+				<li><a href="class-DBO.html">DBO</a></li>
+				<li><a href="class-DBO_COLUMN.html">DBO_COLUMN</a></li>
+				<li><a href="class-DBQ.html">DBQ</a></li>
+				<li><a href="class-DBQ_PARM.html">DBQ_PARM</a></li>
+				<li><a href="class-extend_mysqli.html">extend_mysqli</a></li>
+				<li><a href="class-UTILITY_MYSQL.html">UTILITY_MYSQL</a></li>
+				<li><a href="class-UTILITY_MYSQLI.html">UTILITY_MYSQLI</a></li>
+				<li><a href="class-UTILITY_TXTSQL.html">UTILITY_TXTSQL</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class DB_MYSQL</h1>
+
+
+	<div class="description">
+	<p>Class DB_MYSQL</p>
+	</div>
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+			<a href="class-DB.html"><span>DB</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+			<a href="class-DB_MYSQLI.html"><span>DB_MYSQLI</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:60px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>DB_MYSQL</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Library.html">Library</a>\<a href="package-Library.Db.html">Db</a><br>
+
+			<b>Located at</b> <a href="source-class-DB_MYSQL.html#11-219" title="Go to source code">db/driver/DB_MYSQL.inc</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="connect" id="_connect">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_connect">#</a>
+			<code><a href="source-class-DB_MYSQL.html#19-49" title="Go to source code">connect</a>( <span>string <var>$db_host</var></span>, <span>string <var>$db_user</var></span>, <span>string <var>$db_pass</var></span>, <span>string <var>$db_name</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				<p>Connect</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Connect</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$db_host</var></dt>
+						<dd></dd>
+						<dt><var>$db_user</var></dt>
+						<dd></dd>
+						<dt><var>$db_pass</var></dt>
+						<dd></dd>
+						<dt><var>$db_name</var></dt>
+						<dd></dd>
+						<dt><var>$options</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						Exception
+					</div>
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-DB_MYSQLI.html#_connect">DB_MYSQLI::connect</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="select" id="_select">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_select">#</a>
+			<code><a href="source-class-DB_MYSQL.html#51-111" title="Go to source code">select</a>( <span>string <var>$dbq</var></span>, <span>array <var>$fields</var></span>, <span>string <var>$index_field</var> = <span class="php-keyword1">null</span></span>, <span>boolean <var>$multi_row</var> = <span class="php-keyword1">true</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				<p>select</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>select</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$dbq</var></dt>
+						<dd></dd>
+						<dt><var>$fields</var></dt>
+						<dd></dd>
+						<dt><var>$index_field</var></dt>
+						<dd></dd>
+						<dt><var>$multi_row</var></dt>
+						<dd></dd>
+						<dt><var>$options</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-DB_MYSQLI.html#_select">DB_MYSQLI::select</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="insert" id="_insert">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_insert">#</a>
+			<code><a href="source-class-DB_MYSQL.html#113-147" title="Go to source code">insert</a>( <span>object <var>$dbq</var></span>, <span>array <var>$data</var></span> )</code>
+
+			<div class="description short">
+				<p>Insert</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Insert</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$dbq</var></dt>
+						<dd></dd>
+						<dt><var>$data</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-DB_MYSQLI.html#_insert">DB_MYSQLI::insert</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_select" id="__select">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__select">#</a>
+			<code><a href="source-class-DB_MYSQL.html#149-165" title="Go to source code">_select</a>( <span>string <var>$sql</var></span> )</code>
+
+			<div class="description short">
+				<p>Select</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Select</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$sql</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-DB_MYSQLI.html#__select">DB_MYSQLI::_select</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_query" id="__query">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__query">#</a>
+			<code><a href="source-class-DB_MYSQL.html#167-218" title="Go to source code">_query</a>( <span>string <var>$query</var></span>, <span>array <var>$data</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				<p>query</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>query</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$query</var></dt>
+						<dd></dd>
+						<dt><var>$data</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-DB_MYSQLI.html#__query">DB_MYSQLI::_query</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+		<div class="panel panel-default">
+	        <div class="panel-heading"><h3>Methods inherited from <a href="class-DB_MYSQLI.html#methods">DB_MYSQLI</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-DB_MYSQLI.html#__complete_transaction">_complete_transaction()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#__disable_foreign_keys">_disable_foreign_keys()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#__enable_foreign_keys">_enable_foreign_keys()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#__fail_transaction">_fail_transaction()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#__has_transaction_failed">_has_transaction_failed()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#__has_transaction_success">_has_transaction_success()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#__script">_script()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#__select_one">_select_one()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#__select_row">_select_row()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#__start_transaction">_start_transaction()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_close">close()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_column_name_exists">column_name_exists()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_delete">delete()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_disable_lock_table">disable_lock_table()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_disable_table_keys">disable_table_keys()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_disable_unique_check">disable_unique_check()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_enable_lock_table_write">enable_lock_table_write()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_enable_table_keys">enable_table_keys()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_enable_unique_check">enable_unique_check()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_extract_column_name">extract_column_name()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_get_db_utility">get_db_utility()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_get_insert_sql">get_insert_sql()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_get_prepared_data">get_prepared_data()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_get_select_sql">get_select_sql()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_get_sql">get_sql()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_ping">ping()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_replace">replace()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_select_column">select_column()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_select_count">select_count()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_select_one">select_one()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_select_row">select_row()</a></code>, 
+				<code><a href="class-DB_MYSQLI.html#_update">update()</a></code>
+			</p>
+		</div>
+		<div class="panel panel-default">
+	        <div class="panel-heading"><h3>Methods inherited from <a href="class-DB.html#methods">DB</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-DB.html#___construct">__construct()</a></code>, 
+				<code><a href="class-DB.html#_all">all()</a></code>, 
+				<code><a href="class-DB.html#_complete_transaction">complete_transaction()</a></code>, 
+				<code><a href="class-DB.html#_config">config()</a></code>, 
+				<code><a href="class-DB.html#_create_db_mysql">create_db_mysql()</a></code>, 
+				<code><a href="class-DB.html#_create_db_mysqli">create_db_mysqli()</a></code>, 
+				<code><a href="class-DB.html#_create_db_txtsql">create_db_txtsql()</a></code>, 
+				<code><a href="class-DB.html#_debug">debug()</a></code>, 
+				<code><a href="class-DB.html#_debugs">debugs()</a></code>, 
+				<code><a href="class-DB.html#_disable_debug">disable_debug()</a></code>, 
+				<code><a href="class-DB.html#_disable_foreign_keys">disable_foreign_keys()</a></code>, 
+				<code><a href="class-DB.html#_disable_transactions">disable_transactions()</a></code>, 
+				<code><a href="class-DB.html#_enable_debug">enable_debug()</a></code>, 
+				<code><a href="class-DB.html#_enable_foreign_keys">enable_foreign_keys()</a></code>, 
+				<code><a href="class-DB.html#_enable_transactions">enable_transactions()</a></code>, 
+				<code><a href="class-DB.html#_event">event()</a></code>, 
+				<code><a href="class-DB.html#_fail_transaction">fail_transaction()</a></code>, 
+				<code><a href="class-DB.html#_get_connection">get_connection()</a></code>, 
+				<code><a href="class-DB.html#_get_date">get_date()</a></code>, 
+				<code><a href="class-DB.html#_get_date_time">get_date_time()</a></code>, 
+				<code><a href="class-DB.html#_get_db_connection">get_db_connection()</a></code>, 
+				<code><a href="class-DB.html#_get_db_name">get_db_name()</a></code>, 
+				<code><a href="class-DB.html#_get_default_db_connection">get_default_db_connection()</a></code>, 
+				<code><a href="class-DB.html#_get_error_message">get_error_message()</a></code>, 
+				<code><a href="class-DB.html#_get_formatted_time">get_formatted_time()</a></code>, 
+				<code><a href="class-DB.html#_get_insert_id">get_insert_id()</a></code>, 
+				<code><a href="class-DB.html#_get_instance">get_instance()</a></code>, 
+				<code><a href="class-DB.html#_has_default_db_connection">has_default_db_connection()</a></code>, 
+				<code><a href="class-DB.html#_has_transaction_failed">has_transaction_failed()</a></code>, 
+				<code><a href="class-DB.html#_has_transaction_success">has_transaction_success()</a></code>, 
+				<code><a href="class-DB.html#_has_transactions">has_transactions()</a></code>, 
+				<code><a href="class-DB.html#_include_db_mysql">include_db_mysql()</a></code>, 
+				<code><a href="class-DB.html#_include_db_mysqli">include_db_mysqli()</a></code>, 
+				<code><a href="class-DB.html#_include_db_txtsql">include_db_txtsql()</a></code>, 
+				<code><a href="class-DB.html#_instance">instance()</a></code>, 
+				<code><a href="class-DB.html#_is_debug">is_debug()</a></code>, 
+				<code><a href="class-DB.html#_is_debug_extend">is_debug_extend()</a></code>, 
+				<code><a href="class-DB.html#_log">log()</a></code>, 
+				<code><a href="class-DB.html#_one">one()</a></code>, 
+				<code><a href="class-DB.html#_query">query()</a></code>, 
+				<code><a href="class-DB.html#_row">row()</a></code>, 
+				<code><a href="class-DB.html#_script">script()</a></code>, 
+				<code><a href="class-DB.html#_set_connection">set_connection()</a></code>, 
+				<code><a href="class-DB.html#_set_db_name">set_db_name()</a></code>, 
+				<code><a href="class-DB.html#_set_debug">set_debug()</a></code>, 
+				<code><a href="class-DB.html#_set_default_db_connection">set_default_db_connection()</a></code>, 
+				<code><a href="class-DB.html#_set_insert_id">set_insert_id()</a></code>, 
+				<code><a href="class-DB.html#_start_transaction">start_transaction()</a></code>, 
+				<code><a href="class-DB.html#_transactions">transactions()</a></code>
+			</p>
+		</div>
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+		</div>
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h3>Constants inherited from <a href="class-DB.html#constants">DB</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-DB.html#DB_TYPE_MYSQL"><b>DB_TYPE_MYSQL</b></a></code>, 
+				<code><a href="class-DB.html#DB_TYPE_MYSQLI"><b>DB_TYPE_MYSQLI</b></a></code>, 
+				<code><a href="class-DB.html#DB_TYPE_TXT_SQL"><b>DB_TYPE_TXT_SQL</b></a></code>, 
+				<code><a href="class-DB.html#ERROR_METHOD_EXCEPTION"><b>ERROR_METHOD_EXCEPTION</b></a></code>, 
+				<code><a href="class-DB.html#ERROR_METHOD_TRIGGER_ERROR"><b>ERROR_METHOD_TRIGGER_ERROR</b></a></code>, 
+				<code><a href="class-DB.html#EVENT_ERROR"><b>EVENT_ERROR</b></a></code>, 
+				<code><a href="class-DB.html#EVENT_QUERY"><b>EVENT_QUERY</b></a></code>, 
+				<code><a href="class-DB.html#PARM_CHARACTER"><b>PARM_CHARACTER</b></a></code>
+			</p>
+		</div>
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+		</div>
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h3>Properties inherited from <a href="class-DB_MYSQLI.html#properties">DB_MYSQLI</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-DB_MYSQLI.html#$_has_transaction_failed"><var>$_has_transaction_failed</var></a></code>, 
+				<code><a href="class-DB_MYSQLI.html#$_is_transactions"><var>$_is_transactions</var></a></code>, 
+				<code><a href="class-DB_MYSQLI.html#$_transaction_starts"><var>$_transaction_starts</var></a></code>
+			</p>
+		</div>
+		<div class="panel panel-default">
+            <div class="panel-heading"><h3>Properties inherited from <a href="class-DB.html#properties">DB</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-DB.html#$_config"><var>$_config</var></a></code>, 
+				<code><a href="class-DB.html#$_connection"><var>$_connection</var></a></code>, 
+				<code><a href="class-DB.html#$_db_name"><var>$_db_name</var></a></code>, 
+				<code><a href="class-DB.html#$_debug"><var>$_debug</var></a></code>, 
+				<code><a href="class-DB.html#$_debug_extend"><var>$_debug_extend</var></a></code>, 
+				<code><a href="class-DB.html#$_error_message"><var>$_error_message</var></a></code>, 
+				<code><a href="class-DB.html#$_guid"><var>$_guid</var></a></code>, 
+				<code><a href="class-DB.html#$_insert_id"><var>$_insert_id</var></a></code>, 
+				<code><a href="class-DB.html#$_instance"><var>$_instance</var></a></code>, 
+				<code><a href="class-DB.html#$_is_logging"><var>$_is_logging</var></a></code>, 
+				<code><a href="class-DB.html#$_logger_cmodel"><var>$_logger_cmodel</var></a></code>, 
+				<code><a href="class-DB.html#$_transactions"><var>$_transactions</var></a></code>
+			</p>
+		</div>
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

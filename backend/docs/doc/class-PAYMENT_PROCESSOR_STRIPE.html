@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class PAYMENT_PROCESSOR_STRIPE</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?70c1d062672daa3f906b72e4f5d03d4bc5c4174d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+					<li>
+						<a href="package-Library.html">
+							Library<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Library.Command.html">
+							Command						</a>
+							</li>
+					<li>
+						<a href="package-Library.Common.html">
+							Common						</a>
+							</li>
+					<li>
+						<a href="package-Library.Crawler.html">
+							Crawler						</a>
+							</li>
+					<li>
+						<a href="package-Library.Db.html">
+							Db						</a>
+							</li>
+					<li>
+						<a href="package-Library.Email.html">
+							Email						</a>
+							</li>
+					<li>
+						<a href="package-Library.Htmlform.html">
+							Htmlform						</a>
+							</li>
+					<li>
+						<a href="package-Library.Payment.html">
+							Payment						</a>
+							</li>
+					<li>
+						<a href="package-Library.Thumbnailer.html">
+							Thumbnailer						</a>
+							</li>
+					<li>
+						<a href="package-Library.Transport.html">
+							Transport						</a>
+							</li>
+					<li>
+						<a href="package-Library.Web.html">
+							Web						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-None.html">
+							None						</a>
+							</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-PAYMENT_ADDRESS.html">PAYMENT_ADDRESS</a></li>
+				<li><a href="class-PAYMENT_CREDIT_CARD.html">PAYMENT_CREDIT_CARD</a></li>
+				<li><a href="class-PAYMENT_CREDIT_CARD_PAYMENTSPRO.html">PAYMENT_CREDIT_CARD_PAYMENTSPRO</a></li>
+				<li><a href="class-PAYMENT_CREDIT_CARD_STRIPE.html">PAYMENT_CREDIT_CARD_STRIPE</a></li>
+				<li><a href="class-PAYMENT_EXCEPTION.html">PAYMENT_EXCEPTION</a></li>
+				<li><a href="class-PAYMENT_PAY_RECEIPT.html">PAYMENT_PAY_RECEIPT</a></li>
+				<li><a href="class-PAYMENT_PROCESSOR.html">PAYMENT_PROCESSOR</a></li>
+				<li><a href="class-PAYMENT_PROCESSOR_PAYMENTSPRO.html">PAYMENT_PROCESSOR_PAYMENTSPRO</a></li>
+				<li class="active"><a href="class-PAYMENT_PROCESSOR_STRIPE.html">PAYMENT_PROCESSOR_STRIPE</a></li>
+				<li><a href="class-PAYMENT_REQUEST.html">PAYMENT_REQUEST</a></li>
+				<li><a href="class-PAYMENT_REQUEST_AUTHORIZATION.html">PAYMENT_REQUEST_AUTHORIZATION</a></li>
+				<li><a href="class-PAYMENT_REQUEST_CARD_CREATE.html">PAYMENT_REQUEST_CARD_CREATE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_CARD_CREATE_STRIPE.html">PAYMENT_REQUEST_CARD_CREATE_STRIPE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_CARD_SALE.html">PAYMENT_REQUEST_CARD_SALE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_CARD_TOKEN_CREATE_STRIPE.html">PAYMENT_REQUEST_CARD_TOKEN_CREATE_STRIPE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_CUSTOMER_CREATE_STRIPE.html">PAYMENT_REQUEST_CUSTOMER_CREATE_STRIPE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_CUSTOMER_UPDATE_STRIPE.html">PAYMENT_REQUEST_CUSTOMER_UPDATE_STRIPE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_ONDEMAND_CREATE_PAYMENTSPRO.html">PAYMENT_REQUEST_ONDEMAND_CREATE_PAYMENTSPRO</a></li>
+				<li><a href="class-PAYMENT_REQUEST_REFUND.html">PAYMENT_REQUEST_REFUND</a></li>
+				<li><a href="class-PAYMENT_REQUEST_REFUND_STRIPE.html">PAYMENT_REQUEST_REFUND_STRIPE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_SALE.html">PAYMENT_REQUEST_SALE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_SALE_STRIPE.html">PAYMENT_REQUEST_SALE_STRIPE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_SEND.html">PAYMENT_REQUEST_SEND</a></li>
+				<li><a href="class-PAYMENT_REQUEST_STRIPE.html">PAYMENT_REQUEST_STRIPE</a></li>
+				<li><a href="class-PAYMENT_REQUEST_SUBSCRIPTION.html">PAYMENT_REQUEST_SUBSCRIPTION</a></li>
+				<li><a href="class-PAYMENT_REQUEST_SUBSCRIPTION_PAYMENTSPRO.html">PAYMENT_REQUEST_SUBSCRIPTION_PAYMENTSPRO</a></li>
+				<li><a href="class-PAYMENT_REQUEST_VOID.html">PAYMENT_REQUEST_VOID</a></li>
+				<li><a href="class-PAYMENT_RESPONSE.html">PAYMENT_RESPONSE</a></li>
+				<li><a href="class-PAYMENT_RESPONSE_SUBSCRIPTION_PAYMENTSPRO.html">PAYMENT_RESPONSE_SUBSCRIPTION_PAYMENTSPRO</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class PAYMENT_PROCESSOR_STRIPE</h1>
+
+
+	<div class="description">
+	<p>Class PAYMENT_PROCESSOR_STRIPE</p>
+	</div>
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+			<a href="class-PAYMENT_PROCESSOR.html"><span>PAYMENT_PROCESSOR</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>PAYMENT_PROCESSOR_STRIPE</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Library.html">Library</a>\<a href="package-Library.Payment.html">Payment</a><br>
+
+			<b>Located at</b> <a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#4-239" title="Go to source code">payment/stripe/PAYMENT_PROCESSOR_STRIPE.inc</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#27-36" title="Go to source code">__construct</a>( <span>string <var>$api_key</var></span>, <span>string <var>$api_password</var>,…</span>, <span>string <var>$api_signature</var>,…</span> )</code>
+
+			<div class="description short">
+				<p>Constructor</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Constructor</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$api_key</var></dt>
+						<dd></dd>
+						<dt><var>$api_password</var>,…</dt>
+						<dd></dd>
+						<dt><var>$api_signature</var>,…</dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+					<h4>Overrides</h4>
+					<div class="list"><code><a href="class-PAYMENT_PROCESSOR.html#___construct">PAYMENT_PROCESSOR::__construct</a></code></div>
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_sale_request" id="_create_sale_request">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_sale_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#39-62" title="Go to source code">create_sale_request</a>( )</code>
+
+			<div class="description short">
+				<p>Create sale request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Create sale request</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br><p>PAYMENT_REQUEST_SALE_STRIPE</p>
+
+<p>$processor = BASE_MODEL_PAYMENT::create_stripe_processor("sk_test_zcKhbUcl9JLeMlXzvz9Th5t4");</p>
+
+<p>$request = $processor->create_sale_request();</p>
+
+<p>$request
+        ->set_currency("CAD")
+        ->set_amount(99.00);</p>
+
+<p>$credit_card = $request
+                    ->get_credit_card()
+                        ->set_number("4242424242424242")
+                        ->set_expiry_month(5)
+                        ->set_expiry_year(2020);</p>
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_card_token_create_request" id="_create_card_token_create_request">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_card_token_create_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#64-68" title="Go to source code">create_card_token_create_request</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_authorization_request" id="_create_authorization_request">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_authorization_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#70-78" title="Go to source code">create_authorization_request</a>( )</code>
+
+			<div class="description short">
+				<p>create authorization request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>create authorization request</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br>PAYMENT_REQUEST_AUTHORIZATION_STRIPE
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_ondemand_payment_request" id="_create_ondemand_payment_request">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_ondemand_payment_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#80-88" title="Go to source code">create_ondemand_payment_request</a>( )</code>
+
+			<div class="description short">
+				<p>create ondemand payment request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>create ondemand payment request</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br>PAYMENT_REQUEST_ONDEMAND_PAYMENT_STRIPE
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_card_create_request" id="_create_card_create_request">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_card_create_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#90-98" title="Go to source code">create_card_create_request</a>( )</code>
+
+			<div class="description short">
+				<p>create ondemand create request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>create ondemand create request</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br>PAYMENT_REQUEST_ONDEMAND_CREATE_STRIPE
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_customer_update_request" id="_create_customer_update_request">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_customer_update_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#100-107" title="Go to source code">create_customer_update_request</a>( <span> <var>$customer_id</var></span> )</code>
+
+			<div class="description short">
+				<p>create ondemand create request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>create ondemand create request</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br>PAYMENT_REQUEST_ONDEMAND_CREATE_STRIPE
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_customer_create_request" id="_create_customer_create_request">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_customer_create_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#109-116" title="Go to source code">create_customer_create_request</a>( )</code>
+
+			<div class="description short">
+				<p>create ondemand create request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>create ondemand create request</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br>PAYMENT_REQUEST_ONDEMAND_CREATE_STRIPE
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_refund_request" id="_create_refund_request">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_refund_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#119-126" title="Go to source code">create_refund_request</a>( )</code>
+
+			<div class="description short">
+				<p>create refund request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>create refund request</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br>PAYMENT_REQUEST_REFUND
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_void_request" id="_create_void_request">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_void_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#128-135" title="Go to source code">create_void_request</a>( )</code>
+
+			<div class="description short">
+				<p>create void request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>create void request</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br>PAYMENT_REQUEST_VOID
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_response" id="_create_response">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_response">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#137-152" title="Go to source code">create_response</a>( <span>string <var>$payment_request</var></span> )</code>
+
+			<div class="description short">
+				<p>create response</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>create response</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$payment_request</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br>PAYMENT_RESPONSE_SUBSCRIPTION_STRIPE
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="create_send_request" id="_create_send_request">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_create_send_request">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#154-161" title="Go to source code">create_send_request</a>( )</code>
+
+			<div class="description short">
+				<p>create send request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>create send request</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						object<br>PAYMENT_REQUEST_SEND
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="process" id="_process">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_process">#</a>
+			<code><a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#163-238" title="Go to source code">process</a>( <span>string <var>$payment_request</var></span> )</code>
+
+			<div class="description short">
+				<p>Process</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Process</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$payment_request</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						object
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><a href="class-PAYMENT_EXCEPTION.html">PAYMENT_EXCEPTION</a></code>
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+		<div class="panel panel-default">
+	        <div class="panel-heading"><h3>Methods inherited from <a href="class-PAYMENT_PROCESSOR.html#methods">PAYMENT_PROCESSOR</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-PAYMENT_PROCESSOR.html#_create_paymentspro_processor">create_paymentspro_processor()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_create_stripe_processor">create_stripe_processor()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_get_code_list">get_code_list()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_get_log_directory">get_log_directory()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_include_paymentspro">include_paymentspro()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_include_stripe">include_stripe()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_is_mode_live">is_mode_live()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_is_mode_test">is_mode_test()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_mode_live">mode_live()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_mode_test">mode_test()</a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#_set_log_directory">set_log_directory()</a></code>
+			</p>
+		</div>
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="ENVIRONMENT_LIVE" id="ENVIRONMENT_LIVE">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#12" title="Go to source code"><b>ENVIRONMENT_LIVE</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#ENVIRONMENT_LIVE" class="anchor">#</a>
+						<code><span class="php-quote">&quot;live&quot;</span></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="ENVIRONMENT_TEST" id="ENVIRONMENT_TEST">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#13" title="Go to source code"><b>ENVIRONMENT_TEST</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#ENVIRONMENT_TEST" class="anchor">#</a>
+						<code><span class="php-quote">&quot;sandbox&quot;</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h3>Constants inherited from <a href="class-PAYMENT_PROCESSOR.html#constants">PAYMENT_PROCESSOR</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-PAYMENT_PROCESSOR.html#CODE_ERROR_ADAPTIVE_PAYMENT"><b>CODE_ERROR_ADAPTIVE_PAYMENT</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#CODE_ERROR_CALLER_SERVICE"><b>CODE_ERROR_CALLER_SERVICE</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#CODE_ERROR_INVALID_RESPONSE"><b>CODE_ERROR_INVALID_RESPONSE</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#CODE_ERROR_MERCHANT"><b>CODE_ERROR_MERCHANT</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#CODE_ERROR_REQUEST_NOT_SUPPORTED"><b>CODE_ERROR_REQUEST_NOT_SUPPORTED</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#CODE_ERROR_SOAT_FAULT"><b>CODE_ERROR_SOAT_FAULT</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#CODE_ERROR_UNKNOWN"><b>CODE_ERROR_UNKNOWN</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#CODE_SUCCESS"><b>CODE_SUCCESS</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#CODE_UNSPECIFIED"><b>CODE_UNSPECIFIED</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#MERCHANT_PAYMENTSPRO"><b>MERCHANT_PAYMENTSPRO</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#MERCHANT_STRIPE"><b>MERCHANT_STRIPE</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#MODE_LIVE"><b>MODE_LIVE</b></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#MODE_TEST"><b>MODE_TEST</b></a></code>
+			</p>
+		</div>
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="_api_key" id="$_api_key">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#15-19" title="Go to source code"><var>$_api_key</var></a>
+
+				<div class="description short">
+					<p>The api username</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The api username</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_api_key" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_log_level" id="$_log_level">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-PAYMENT_PROCESSOR_STRIPE.html#21-25" title="Go to source code"><var>$_log_level</var></a>
+
+				<div class="description short">
+					<p>The log level</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The log level</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_log_level" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h3>Properties inherited from <a href="class-PAYMENT_PROCESSOR.html#properties">PAYMENT_PROCESSOR</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-PAYMENT_PROCESSOR.html#$_log_directory"><var>$_log_directory</var></a></code>, 
+				<code><a href="class-PAYMENT_PROCESSOR.html#$_mode"><var>$_mode</var></a></code>
+			</p>
+		</div>
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

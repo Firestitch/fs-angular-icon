@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule !(\..*(ico|jpg|gif|png|swf|css|js|html|html|xap))$ index.php [last,nocase]

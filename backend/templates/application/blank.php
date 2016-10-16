@@ -1,0 +1,1 @@
+<? $this->show_view('body'); ?>

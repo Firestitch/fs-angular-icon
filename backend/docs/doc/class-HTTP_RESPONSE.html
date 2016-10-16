@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class HTTP_RESPONSE</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?70c1d062672daa3f906b72e4f5d03d4bc5c4174d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+					<li>
+						<a href="package-Library.html">
+							Library<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-Library.Command.html">
+							Command						</a>
+							</li>
+					<li>
+						<a href="package-Library.Common.html">
+							Common						</a>
+							</li>
+					<li>
+						<a href="package-Library.Crawler.html">
+							Crawler						</a>
+							</li>
+					<li>
+						<a href="package-Library.Db.html">
+							Db						</a>
+							</li>
+					<li>
+						<a href="package-Library.Email.html">
+							Email						</a>
+							</li>
+					<li>
+						<a href="package-Library.Htmlform.html">
+							Htmlform						</a>
+							</li>
+					<li>
+						<a href="package-Library.Payment.html">
+							Payment						</a>
+							</li>
+					<li>
+						<a href="package-Library.Thumbnailer.html">
+							Thumbnailer						</a>
+							</li>
+					<li>
+						<a href="package-Library.Transport.html">
+							Transport						</a>
+							</li>
+					<li>
+						<a href="package-Library.Web.html">
+							Web						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="package-None.html">
+							None						</a>
+							</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-HTTP_ADAPTER.html">HTTP_ADAPTER</a></li>
+				<li><a href="class-HTTP_ADAPTER_CURL.html">HTTP_ADAPTER_CURL</a></li>
+				<li><a href="class-HTTP_ADAPTER_FOPEN.html">HTTP_ADAPTER_FOPEN</a></li>
+				<li><a href="class-HTTP_ADAPTER_HTTP.html">HTTP_ADAPTER_HTTP</a></li>
+				<li><a href="class-HTTP_ADAPTER_PHPSOCKET.html">HTTP_ADAPTER_PHPSOCKET</a></li>
+				<li><a href="class-HTTP_ADAPTER_PHPSOCKET_SOCKET.html">HTTP_ADAPTER_PHPSOCKET_SOCKET</a></li>
+				<li><a href="class-HTTP_HEADER.html">HTTP_HEADER</a></li>
+				<li><a href="class-HTTP_REQUEST.html">HTTP_REQUEST</a></li>
+				<li class="active"><a href="class-HTTP_RESPONSE.html">HTTP_RESPONSE</a></li>
+				<li><a href="class-HTTP_URI.html">HTTP_URI</a></li>
+			</ul>
+
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-HTTP_EXCEPTION.html">HTTP_EXCEPTION</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class HTTP_RESPONSE</h1>
+
+
+	<div class="description">
+	<p>Class HTTP_RESPONSE</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-Library.html">Library</a>\<a href="package-Library.Transport.html">Transport</a><br>
+
+			<b>Located at</b> <a href="source-class-HTTP_RESPONSE.html#2-228" title="Go to source code">transport/http_response.inc</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#70-86" title="Go to source code">__construct</a>( <span>integer <var>$code</var> = <span class="php-num">0</span></span>, <span>string <var>$body</var> = <span class="php-quote">&quot;&quot;</span></span>, <span>string <var>$header</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$cookies</var> = <span class="php-keyword1">array</span>()</span>, <span>string <var>$http_version</var> = <span class="php-quote">&quot;&quot;</span></span>, <span>string <var>$uri</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				<p>Constructor</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Constructor</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$code</var></dt>
+						<dd></dd>
+						<dt><var>$body</var></dt>
+						<dd></dd>
+						<dt><var>$header</var></dt>
+						<dd></dd>
+						<dt><var>$cookies</var></dt>
+						<dd></dd>
+						<dt><var>$http_version</var></dt>
+						<dd></dd>
+						<dt><var>$uri</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__toString" id="___toString">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___toString">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#88-92" title="Go to source code">__toString</a>( )</code>
+
+			<div class="description short">
+				<p>To string</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>To string</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_body" id="_get_body">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_body">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#94-98" title="Go to source code">get_body</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the body</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the body</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="body" id="_body">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_body">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#99" title="Go to source code">body</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_json_body" id="_get_json_body">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_json_body">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#101-105" title="Go to source code">get_json_body</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the json body</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the json body</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="json" id="_json">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_json">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#107" title="Go to source code">json</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_header" id="_get_header">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_header">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#109-113" title="Go to source code">get_header</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the header</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the header</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cookies" id="_get_cookies">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_cookies">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#115-119" title="Go to source code">get_cookies</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the cookies</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the cookies</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						array
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_code" id="_get_code">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_code">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#121-125" title="Go to source code">get_code</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the code</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the code</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_path" id="_get_path">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_path">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#127-131" title="Go to source code">get_path</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the path</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the path</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_content_type" id="_get_content_type">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_content_type">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#133-137" title="Go to source code">get_content_type</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the content type</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the content type</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_request_header" id="_set_request_header">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set_request_header">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#139-143" title="Go to source code">set_request_header</a>( <span>string <var>$request_header</var></span> )</code>
+
+			<div class="description short">
+				<p>Set request header</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set request header</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$request_header</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_request_header" id="_get_request_header">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_request_header">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#145-149" title="Go to source code">get_request_header</a>( <span>string <var>$request_header</var>,…</span> )</code>
+
+			<div class="description short">
+				<p>Get request header</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get request header</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$request_header</var>,…</dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_code_success" id="_is_code_success">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_code_success">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#151-155" title="Go to source code">is_code_success</a>( )</code>
+
+			<div class="description short">
+				<p>Checks whether the code is success</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Checks whether the code is success</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_code_redirect" id="_is_code_redirect">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_code_redirect">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#157-161" title="Go to source code">is_code_redirect</a>( )</code>
+
+			<div class="description short">
+				<p>Checks whether the code is redirect</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Checks whether the code is redirect</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_code_client_error" id="_is_code_client_error">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_code_client_error">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#163-167" title="Go to source code">is_code_client_error</a>( )</code>
+
+			<div class="description short">
+				<p>Checks whether the code is client error</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Checks whether the code is client error</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_code_server_error" id="_is_code_server_error">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_code_server_error">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#169-173" title="Go to source code">is_code_server_error</a>( )</code>
+
+			<div class="description short">
+				<p>Checks whether the code is server error</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Checks whether the code is server error</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="success" id="_success">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_success">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#176" title="Go to source code">success</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_body" id="_set_body">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set_body">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#177-181" title="Go to source code">set_body</a>( <span>string <var>$body</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the body</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the body</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$body</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_content_extension" id="_get_content_extension">
+
+			<td class="attributes"><code>
+				 public 
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_content_extension">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#183-200" title="Go to source code">get_content_extension</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the content extension</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the content extension</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string|null
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_charset" id="_get_charset">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_charset">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#202-213" title="Go to source code">get_charset</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the charset</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the charset</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_code_description" id="_get_code_description">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_code_description">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#215-219" title="Go to source code">get_code_description</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the code descriptions</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the code descriptions</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_code_short_description" id="_get_code_short_description">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_code_short_description">#</a>
+			<code><a href="source-class-HTTP_RESPONSE.html#221-227" title="Go to source code">get_code_short_description</a>( )</code>
+
+			<div class="description short">
+				<p>Returns the code short description</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns the code short description</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="_code" id="$_code">
+			<td class="attributes"><code>
+				public  
+				integer
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-HTTP_RESPONSE.html#10-14" title="Go to source code"><var>$_code</var></a>
+
+				<div class="description short">
+					<p>The code</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The code</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_code" class="anchor">#</a>
+					<code><span class="php-num">100</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_header" id="$_header">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-HTTP_RESPONSE.html#16-20" title="Go to source code"><var>$_header</var></a>
+
+				<div class="description short">
+					<p>The header</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The header</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_header" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_request_header" id="$_request_header">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-HTTP_RESPONSE.html#22-26" title="Go to source code"><var>$_request_header</var></a>
+
+				<div class="description short">
+					<p>Request header</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>Request header</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_request_header" class="anchor">#</a>
+					<code><span class="php-keyword1">null</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_cookies" id="$_cookies">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-HTTP_RESPONSE.html#28-32" title="Go to source code"><var>$_cookies</var></a>
+
+				<div class="description short">
+					<p>The cookies</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The cookies</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_cookies" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_body" id="$_body">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-HTTP_RESPONSE.html#34-38" title="Go to source code"><var>$_body</var></a>
+
+				<div class="description short">
+					<p>The body</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The body</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_body" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_http_version" id="$_http_version">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-HTTP_RESPONSE.html#40-44" title="Go to source code"><var>$_http_version</var></a>
+
+				<div class="description short">
+					<p>The http version</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The http version</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_http_version" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="_path" id="$_path">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-HTTP_RESPONSE.html#46-50" title="Go to source code"><var>$_path</var></a>
+
+				<div class="description short">
+					<p>The path</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The path</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$_path" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="SHORT_DESCRIPTION" id="$SHORT_DESCRIPTION">
+			<td class="attributes"><code>
+				public static 
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-HTTP_RESPONSE.html#52-68" title="Go to source code"><var>$SHORT_DESCRIPTION</var></a>
+
+				<div class="description short">
+					<p>SHORT DESCRIPTION</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>SHORT DESCRIPTION</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$SHORT_DESCRIPTION" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>(  <span class="php-quote">&quot;301&quot;</span>=&gt;<span class="php-quote">&quot;Moved&quot;</span>,
+                                        <span class="php-quote">&quot;302&quot;</span>=&gt;<span class="php-quote">&quot;Found&quot;</span>,
+                                        <span class="php-quote">&quot;303&quot;</span>=&gt;<span class="php-quote">&quot;Method&quot;</span>,
+                                        <span class="php-quote">&quot;304&quot;</span>=&gt;<span class="php-quote">&quot;Not Modified&quot;</span>,      
+                                        <span class="php-quote">&quot;400&quot;</span>=&gt;<span class="php-quote">&quot;Bad request&quot;</span>,
+                                        <span class="php-quote">&quot;401&quot;</span>=&gt;<span class="php-quote">&quot;Unauthorized&quot;</span>,
+                                        <span class="php-quote">&quot;402&quot;</span>=&gt;<span class="php-quote">&quot;PaymentRequired&quot;</span>,
+                                        <span class="php-quote">&quot;403&quot;</span>=&gt;<span class="php-quote">&quot;Forbidden&quot;</span>,
+                                        <span class="php-quote">&quot;404&quot;</span>=&gt;<span class="php-quote">&quot;Not found&quot;</span>,
+                                        <span class="php-quote">&quot;500&quot;</span>=&gt;<span class="php-quote">&quot;Internal Server Error&quot;</span>,
+                                        <span class="php-quote">&quot;501&quot;</span>=&gt;<span class="php-quote">&quot;Not implemented&quot;</span>,
+                                        <span class="php-quote">&quot;502&quot;</span>=&gt;<span class="php-quote">&quot;Service temporarily overloaded&quot;</span>,
+                                        <span class="php-quote">&quot;503&quot;</span>=&gt;<span class="php-quote">&quot;Gateway timeout&quot;</span>)</code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

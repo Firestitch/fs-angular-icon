@@ -1,0 +1,243 @@
+.btn-add:before {
+	content: "+ ";
+}
+
+
+.btn-back:before {
+	content: "« ";
+}
+
+
+
+#body-manage-graphnode #conditions {
+	list-style: decimal;
+}
+
+#body-manage-graphnode #conditions li {
+	cursor: pointer;
+}
+
+#body-manage-graphnode .radiobutton-row {
+	margin: 0 0 3px;
+}
+
+#body-manage-graphnode #radiobutton-values {
+	
+}
+
+#body-manage-graphnode .radiobutton-row input,
+#body-manage-graphnode #radiobutton-new {
+	width: 600px;
+}
+
+#body-manage-graphnode .object-label {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#body-manage-graphnode .graph-object-account li {
+	list-style: none;
+}
+
+
+#body-manage-graphnode .graph-object-survey .individual {
+	display: none;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+#body-manage-graphcondition .condition-label {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+#graph-designer {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	min-height: 700px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px	;		
+	position: relative;
+}
+
+#graph-designer .window { 
+	border:2px solid #346789; 
+ 	width:250px; 
+ 	height:200px;
+	z-index:20; 
+	position:absolute; 
+	font-size:0.8em;
+	border-radius:0.5em;
+	background-color: #fff;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#graph-designer .window .menu { 
+	position: absolute;
+	bottom: 0px;
+	padding: 5px; 
+	display: none;
+	width: 100%;
+	border-top: 1px solid #ccc;
+	background: #fff;
+}
+
+#graph-designer .window .preview { 
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	height: 100%;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+
+#graph-designer .window .description { 
+	position: absolute;
+	top: 33px;
+	width: 100%;
+	font-size: 14px;
+}
+
+#graph-designer .window .description  li { 
+	background-color: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;		
+	list-style: none;
+	padding: 2px;
+	margin: 3px;
+}
+
+
+#graph-designer .window .menu a { 
+	margin: 14px 0 0 4px;
+}
+
+#graph-designer .window .menu .view,
+#graph-designer .window .menu .template { 
+	display: none;
+}
+
+#graph-designer .window .default.active,
+#graph-designer .window .default[data-default='1'] { 
+	background-color: #278CB6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;	
+	vertical-align: middle;
+	padding-left: 2px;
+}
+
+#graph-designer .window .name { 
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	position: absolute;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+}
+
+#graph-designer .connection-label {
+	background: #fff;
+	border: 1px solid #DFDFDF;
+	padding: 3px;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;		
+	max-width: 100px;
+	text-align: center;
+}
+
+
+#graph-designer .connection-label a {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width: 16px;
+	height: 16px;
+	background: url("../images/manage/remove.png");
+	z-index: 999999;
+	display: none;
+}
+
+#body-manage-site .window .menu .view,
+#body-manage-site .window .menu .template {
+	display: inline;
+}
+
+
+
+
+#body-manage-graph #template {
+	display: none;
+}
+
+
+
+
+
+
+
+#body-manage-account #account-accounts li div {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	padding: 7px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;	
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+#body-manage-account #account-accounts > ol {
+	margin: 10px;
+}
+
+#body-manage-account #account-accounts {
+	margin: 5px 0 0 0;
+}
+
+#body-manage-account .ui-sortable-placeholder {
+	border: 1px dashed 	red;
+	visibility: visible !important;
+	margin-top: 15px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;	
+}
+
+#body-manage-account #account-accounts li {
+	margin: 0;
+	list-style: none;
+}
+
+#body-manage-account #account-accounts .actions {
+	float: right;
+}
+
+
+
+#body-manage-accountsurvey #graph-designer .window { 
+	
+ }

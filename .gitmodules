@@ -1,0 +1,6 @@
+[submodule "framework"]
+	path = framework
+	url = git@github.com:Firestitch/framework.git
+[submodule "src/grunt"]
+	path = src/grunt
+	url = git@github.com:Firestitch/grunt.git

@@ -1,0 +1,286 @@
+
+.go-login .selection .bottom {
+	clear: both;
+}
+
+.go-login .selection .method {
+	float: left;
+	width: 100px;
+	height: 100px;	
+	line-height: 100px;	
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin: 5px;
+	text-align: center;
+}
+
+.go-login .selection .method span {
+	text-align: center;
+	display: block;
+}
+
+.go-login .interface .method,
+.go-login .activation,
+.go-login .activation .instructions,
+.go-login .interface .interface-password,
+.go-login .reset-send,
+.go-login .reset-send .email,
+.go-login .reset-send .sms,
+.go-login .reset,
+.go-login .reset .instructions {
+	display: none;
+}
+
+.go-login .interface .method .login {
+	display: block;
+}
+
+.go-login .interface .forgot {
+	float: right;
+}
+
+
+
+
+.go-share .interface .method {
+	display: none;
+}
+
+.go-share .selection .method {
+	float: left;
+	width: 100px;
+	height: 100px;	
+	line-height: 100px;	
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin: 5px;
+	text-align: center;
+}
+
+.go-share .selection .bottom {
+	clear: both;
+}
+
+.go-share .fb-post-preview {
+	border: 0;
+	padding: 0;
+}
+
+.go-share .interface .facebook textarea	 {
+	width: 100%;
+	height: 40px;
+}
+
+.go-password .old-password,
+.go-password .new-password {
+	display: none;
+}	
+
+
+.go-brand-field .optin-individual {
+	margin-left: 10px;
+	display: none;
+}	
+
+
+
+.go-terms .terms {
+	display: none;
+}
+
+
+
+
+.go-member-offers {
+	width: 500px;
+	margin: auto;
+}
+
+.go-member-offers .offers .summary {
+	cursor: pointer;
+}
+
+.go-member-offers .expires,
+.go-member-offers .created {
+	font-size: smaller;
+}
+
+.go-member-offers .created {
+	float: right;
+}
+
+.go-member-offers .redemption {
+	display: none;
+}
+
+.go-member-offers .name {
+	padding: 10px 0 10px 0;
+}
+
+.go-member-offers .scan {
+	text-align: center;
+}
+
+.go-member-offers .send {
+	display: none;
+}
+
+.go-member-offers .code {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px;
+}
+
+.go-member-offers .summary {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.go-member-offers .summary .preview {
+	float: left;
+	margin-right: 15px;
+}
+
+.go-member-offers .summary .preview img {
+	width: 150px;	
+}
+
+.go-member-offers .detail {
+	display: none;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.go-member-offers .detail .view {
+	clear: both;
+}
+
+.go-member-offers .filters a.selected {
+	font-weight: bold;
+}
+
+
+.go-member-offers .barcode {	
+	margin: auto;
+}
+
+.go-member-offers .qr {	
+	margin: auto;
+}
+
+.go-member-offers .qr img {	
+	width: 100%;
+}
+
+
+.go-survey .sentiment input,
+.go-survey .rating  input,
+.go-survey .yesno  input {
+	display: none;
+}
+
+
+.go-survey .sentiment label {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.go-survey .sentiment label.positive {
+	background-image: url("../images/sentiment_positive-disable.png");
+}
+
+.go-survey .sentiment label.negative {
+	background-image: url("../images/sentiment_negative-disable.png");
+}
+
+
+.go-survey .sentiment label.positive.active {
+	background-image: url("../images/sentiment_positive.png");
+}
+
+.go-survey .sentiment label.negative.active {
+	background-image: url("../images/sentiment_negative.png");
+}
+
+.go-survey .rating label,
+.go-survey .yesno label {
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-right: none;
+	text-align: center;
+	padding: 5px 10px 5px 10px;
+}
+
+.go-survey .rating label.last,
+.go-survey .yesno label.last {
+	border-right: 1px solid #ccc;
+    -webkit-border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+}
+
+.go-survey .rating label.first,
+.go-survey .yesno label.first {
+	-webkit-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+}
+
+.go-survey .rating label.active,
+.go-survey .yesno label.active {
+	background-color: #efefef;
+}
+
+
+
+
+
+
+.go-member-programs .name {
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+
+.go-member-programs .summary {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.go-member-programs .detail {
+	display: none;
+	border: 1px solid #ccc;
+	border-top: none;
+	padding: 10px;
+}
+
+
+.go-member-dashboard {
+	margin: auto;
+	max-width: 700px;
+	min-width: 200px;
+}
+
+
+.go-member-dashboard a {
+	text-decoration: none;
+}
+
+
+
+
+.go-dob fieldset {
+	border: 0px;
+}
+
+.go-dob .interface {
+	display: none;
+}
+
+.go-dob .formatted {
+	min-height: 30px;
+	cursor: pointer;
+}

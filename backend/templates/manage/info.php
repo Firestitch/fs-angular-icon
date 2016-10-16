@@ -1,0 +1,1 @@
+<iframe src ="/manage/infoframe/" width="100%" height="30000" frameborder="0"></iframe>
