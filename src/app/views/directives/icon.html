@@ -6,9 +6,9 @@
     </div>
     <md-dialog-content>
         <div class="md-dialog-content">
-            <div ng-repeat="icon in icons track by $index" class="icon-item" ng-click="select(icon)" ng-hide="hideIcons[icon.icon]">
-                <div class="material-icons">{{::icon.icon}}</div>
-                <div class="tooltip">{{::icon.name}}</div>
+            <div ng-repeat="icon in icons track by $index" class="icon-item" ng-click="select(icon)" ng-hide="hideIcons[icon.value]">
+                <div class="material-icons">{{::icon.value}}</div>
+                <div class="tooltip">{{::icon.value}}</div>
             </div>
         </div>
     </md-dialog-content>
