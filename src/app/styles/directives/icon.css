@@ -60,7 +60,7 @@
 }
 
 #md-dialog-fsicon .search {
-	padding: 20px 10px 10px 10px;
+	padding: 5px 10px 10px 10px;
 }
 
 #md-dialog-fsicon md-input-container {
@@ -71,7 +71,17 @@
 	height: 100%;
 }
 
+#md-dialog-fsicon md-input-container input {
+    height: 40px;
+    font-size: 20px;
+}
+
+#md-dialog-fsicon md-input-container label {
+    font-size: 20px;
+    line-height: 8px;
+}
+
 #md-dialog-fsicon md-input-container.md-input-has-value label,
 #md-dialog-fsicon md-input-container.md-input-focused label {
-	display: none;
+    display: none;
 }
