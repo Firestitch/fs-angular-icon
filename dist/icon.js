@@ -106,7 +106,7 @@ angular.module('fs-angular-icon').run(['$templateCache', function($templateCache
     "\n" +
     "        <md-input-container class=\"md-no-message md-no-label md-block\">\r" +
     "\n" +
-    "        \t<input ng-model=\"search\" placeholder=\"Search\" autocomplete=\"off\">\r" +
+    "        \t<input ng-model=\"search\" placeholder=\"Search\" autocomplete=\"off\" md-no-float>\r" +
     "\n" +
     "        </md-input-container>\r" +
     "\n" +
