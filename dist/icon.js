@@ -40,7 +40,7 @@
 
             return service;
 
-            function show() {
+            function show(options) {
 
                 return $q(function(resolve) {
 
@@ -56,6 +56,9 @@
                             resolve: {
                                 icons: function() {
                                     return _icons;
+                                },
+                                options: function() {
+                                	return options;
                                 }
                             }
                     })
@@ -69,12 +72,17 @@
             }
         };
     })
-    .controller('fsIconCtrl',function($scope, $mdDialog, $timeout, icons) {
+    .controller('fsIconCtrl',function($scope, $mdDialog, $timeout, icons, options) {
 
         $scope.search = '';
         $scope.icons = icons;
         $scope.hideIcons = {};
         $scope.tooltip = false;
+
+        options = options || {};
+        if(options.color) {
+        	$scope.style = { color: options.color };
+        }
 
         $scope.$watch('search',function(search) {
             $scope.hideIcons = {};
@@ -104,9 +112,9 @@ angular.module('fs-angular-icon').run(['$templateCache', function($templateCache
     "\n" +
     "    <div class=\"search\">\r" +
     "\n" +
-    "        <md-input-container class=\"md-no-message md-no-label md-block\">\r" +
+    "        <md-input-container class=\"md-no-message md-no-label md-block\" md-no-float>\r" +
     "\n" +
-    "        \t<input ng-model=\"search\" placeholder=\"Search\" autocomplete=\"off\" md-no-float>\r" +
+    "        \t<input ng-model=\"search\" placeholder=\"Search\" autocomplete=\"off\">\r" +
     "\n" +
     "        </md-input-container>\r" +
     "\n" +
@@ -118,9 +126,9 @@ angular.module('fs-angular-icon').run(['$templateCache', function($templateCache
     "\n" +
     "            <div ng-repeat=\"icon in icons track by $index\" class=\"icon-item\" ng-click=\"select(icon)\" ng-hide=\"hideIcons[icon.value]\">\r" +
     "\n" +
-    "                <div class=\"material-icons\">{{::icon.value}}</div>\r" +
+    "                <div class=\"material-icons\" ng-style=\"style\">{{::icon.value}}</div>\r" +
     "\n" +
-    "                <div class=\"tooltip\">{{::icon.value}}</div>\r" +
+    "                <div class=\"tooltip\">{{::icon.value.toString().replace('_', ' ')}}</div>\r" +
     "\n" +
     "            </div>\r" +
     "\n" +

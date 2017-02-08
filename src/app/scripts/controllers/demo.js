@@ -13,7 +13,7 @@
     }
 
     $scope.open = function() {
-	    fsIcon.show()
+	    fsIcon.show({ color: 'red' })
 	  	.then(function(icon) {
 	  		$scope.icon = icon;
 	  	});

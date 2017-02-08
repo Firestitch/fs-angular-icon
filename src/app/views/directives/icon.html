@@ -1,14 +1,14 @@
 <md-dialog id="md-dialog-fsicon">
     <div class="search">
-        <md-input-container class="md-no-message md-no-label md-block">
-        	<input ng-model="search" placeholder="Search" autocomplete="off" md-no-float>
+        <md-input-container class="md-no-message md-no-label md-block" md-no-float>
+        	<input ng-model="search" placeholder="Search" autocomplete="off">
         </md-input-container>
     </div>
     <md-dialog-content>
         <div class="md-dialog-content">
             <div ng-repeat="icon in icons track by $index" class="icon-item" ng-click="select(icon)" ng-hide="hideIcons[icon.value]">
-                <div class="material-icons">{{::icon.value}}</div>
-                <div class="tooltip">{{::icon.value}}</div>
+                <div class="material-icons" ng-style="style">{{::icon.value}}</div>
+                <div class="tooltip">{{::icon.value.toString().replace('_', ' ')}}</div>
             </div>
         </div>
     </md-dialog-content>

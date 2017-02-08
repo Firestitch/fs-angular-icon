@@ -38,7 +38,7 @@
 
             return service;
 
-            function show() {
+            function show(options) {
 
                 return $q(function(resolve) {
 
@@ -54,6 +54,9 @@
                             resolve: {
                                 icons: function() {
                                     return _icons;
+                                },
+                                options: function() {
+                                	return options;
                                 }
                             }
                     })
@@ -67,12 +70,17 @@
             }
         };
     })
-    .controller('fsIconCtrl',function($scope, $mdDialog, $timeout, icons) {
+    .controller('fsIconCtrl',function($scope, $mdDialog, $timeout, icons, options) {
 
         $scope.search = '';
         $scope.icons = icons;
         $scope.hideIcons = {};
         $scope.tooltip = false;
+
+        options = options || {};
+        if(options.color) {
+        	$scope.style = { color: options.color };
+        }
 
         $scope.$watch('search',function(search) {
             $scope.hideIcons = {};
