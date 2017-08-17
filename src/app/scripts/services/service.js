@@ -50,6 +50,7 @@
                             controllerAs: 'dialog',
                             preserveScope: true,
                             skipHide: true,
+                            multiple: true,
                             controller: 'fsIconCtrl',
                             resolve: {
                                 icons: function() {
