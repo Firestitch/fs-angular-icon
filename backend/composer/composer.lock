@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "e1c82ab5fb81e87eeef5ace3bfa7e61c",
     "content-hash": "655fe1f8fb2a4b5dfc08ffa5e2f1ffca",
     "packages": [
         {
@@ -50,7 +49,7 @@
                 "google",
                 "spreadsheet"
             ],
-            "time": "2016-04-22 09:14:40"
+            "time": "2016-04-22T09:14:40+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -93,7 +92,7 @@
             ],
             "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
             "homepage": "https://github.com/firebase/php-jwt",
-            "time": "2015-07-22 18:31:08"
+            "time": "2015-07-22T18:31:08+00:00"
         },
         {
             "name": "google/apiclient",
@@ -152,7 +151,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2016-06-08 01:30:25"
+            "time": "2016-06-08T01:30:25+00:00"
         },
         {
             "name": "google/apiclient-services",
@@ -186,7 +185,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2016-09-14 19:12:27"
+            "time": "2016-09-14T19:12:27+00:00"
         },
         {
             "name": "google/auth",
@@ -234,7 +233,7 @@
                 "google",
                 "oauth2"
             ],
-            "time": "2016-05-11 16:56:35"
+            "time": "2016-05-11T16:56:35+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -296,7 +295,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-03-21 20:02:09"
+            "time": "2016-03-21T20:02:09+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -347,7 +346,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-05-18 16:56:05"
+            "time": "2016-05-18T16:56:05+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -405,7 +404,7 @@
                 "stream",
                 "uri"
             ],
-            "time": "2016-02-18 21:54:00"
+            "time": "2016-02-18T21:54:00+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -483,20 +482,20 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-07-29 03:23:52"
+            "time": "2016-07-29T03:23:52+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.4",
+            "version": "2.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "ab8028c93c03cc8d9c824efa75dc94f1db2369bf"
+                "reference": "28d8f438a0064c9de80857e3270d071495544640"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/ab8028c93c03cc8d9c824efa75dc94f1db2369bf",
-                "reference": "ab8028c93c03cc8d9c824efa75dc94f1db2369bf",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/28d8f438a0064c9de80857e3270d071495544640",
+                "reference": "28d8f438a0064c9de80857e3270d071495544640",
                 "shasum": ""
             },
             "require": {
@@ -504,15 +503,15 @@
             },
             "require-dev": {
                 "phing/phing": "~2.7",
-                "phpunit/phpunit": "~4.0",
-                "sami/sami": "~2.0",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4",
                 "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
                 "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
                 "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
                 "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
-                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations.",
+                "ext-xml": "Install the XML extension to load XML formatted public keys."
             },
             "type": "library",
             "autoload": {
@@ -575,7 +574,25 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2016-10-04 00:57:04"
+            "support": {
+                "issues": "https://github.com/phpseclib/phpseclib/issues",
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.45"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/terrafrost",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/phpseclib",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-09-15T20:55:47+00:00"
         },
         {
             "name": "psr/cache",
@@ -621,7 +638,7 @@
                 "psr",
                 "psr-6"
             ],
-            "time": "2016-08-06 20:24:11"
+            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/http-message",
@@ -671,7 +688,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -718,7 +735,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         }
     ],
     "packages-dev": [],
@@ -728,5 +745,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
